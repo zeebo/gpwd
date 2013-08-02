@@ -1,0 +1,7 @@
+Generates a password given a master password and some context using a sha256
+hmac with the key being the master password.
+
+It copies the generated password to your clipboard with `pbcopy` so it only
+works on platforms with that (OS X at least?)
+
+Useful for not using the same password everywhere. Just pick a strong master.
