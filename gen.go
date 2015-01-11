@@ -9,7 +9,7 @@ import (
     "strings"
     "syscall"
     
-    "golang.org/x/crypto/ssh/terminal"
+    "github.com/zeebo/gpwd/terminal"
 )
 
 func main() {
